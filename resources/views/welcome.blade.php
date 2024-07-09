@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- HTML ICON -->
+        <link rel="icon" type="image/png" sizes="*" rel="noopener" target="_blank" href="{{asset('store/pictures/logos/logo-500.png')}}">
         <link rel="icon" type="image/png" sizes="200x200" rel="noopener" target="_blank" href="{{asset('store/pictures/logos/logo-200.png')}}">
         <link rel="icon" type="image/png" sizes="500x500" rel="noopener" target="_blank" href="{{asset('store/pictures/logos/logo-500.png')}}">
         <link rel="icon" type="image/png" sizes="1000x1000" rel="noopener" target="_blank" href="{{asset('store/pictures/logo/logo-1000.png')}}">
