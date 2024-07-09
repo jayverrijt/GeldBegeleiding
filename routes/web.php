@@ -4,7 +4,10 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('welcome');
+    $title = \DB::table('system')->where('name', 'sitename')->first();
+    $title = $title->value;
+    return view('welcome', compact('title'));
+
 });
 
 Route::get('/dashboard', function () {
